@@ -71,7 +71,7 @@ final class Common: XCTestCase {
     }
     
     public func verifyRegistrationFields() {
-        let registrationValues = [1:"INDIA", 2:"TELEGANA",3:"sai@atmecs.com",4:"9948984897"]
+        let registrationValues = [1:"INDIA", 2:"TELEGANA",3:"sai@atmecs.com",4:"991234566"]
         
         let countryTxt = app.textFields["Country"]
         let country = registrationValues[1];
